@@ -1,0 +1,13 @@
+# Added string formatting
+# 1. Combine names with a space
+full_name = first_name + " " + last_name
+
+# 2. Corrected the .upper() syntax
+name_code = full_name.upper()
+section = section.upper()
+
+# 3. Corrected the .capitalize() syntax
+favorite_subject = favorite_subject.capitalize()
+
+# 4. Counts characters (excluding the space we added)
+character_count = len(full_name.replace(" ", ""))
